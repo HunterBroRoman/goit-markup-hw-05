@@ -61,6 +61,10 @@ img {
 
 /* ------Page header------- */
 
+.header {
+  display: flex;
+}
+
 .page-header {
   display: flex;
   
@@ -682,8 +686,8 @@ background: rgba(47, 48, 58, 0.8);
   text-decoration: none;
 }
 
-.work-item:hover,
-.work-item:focus {
+.work-link:hover,
+.work-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -763,7 +767,7 @@ background: rgba(47, 48, 58, 0.8);
   background: rgba(0, 0, 0, 0.2);
   }
 
-  .backdrop.is.hidden {
+  .backdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
