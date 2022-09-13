@@ -328,7 +328,7 @@ img {
   padding-top: 0;
 }
 
-.activity {
+.activ-list {
   display: flex;
   padding: 0;
 
@@ -336,7 +336,8 @@ img {
   padding-bottom: 94px;
   margin: 0;
 }
-.activity-title {
+
+.activ-title {
   margin: 0;
   margin-bottom: 50px;
 
@@ -348,6 +349,32 @@ img {
   color: #212121;
 }
 
+.activ-item {
+  position: relative;
+}
+
+.activ-description {
+position: absolute;
+width: 370px;
+height: 70px;
+bottom: 0;
+top: 224px;
+padding-top: 27px;
+padding-bottom: 27px;
+background: rgba(47, 48, 58, 0.8);
+
+}
+
+.activ-text{
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
 /* ------style наша команда--------*/
 
 .team {
