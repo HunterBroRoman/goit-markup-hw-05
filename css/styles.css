@@ -813,7 +813,7 @@ img {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(34, 44, 184, 0.5);
 }
 
 .modal-btn:hover .footer-open,
